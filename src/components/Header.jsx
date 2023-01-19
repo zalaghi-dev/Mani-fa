@@ -22,23 +22,47 @@ const Header = (props) => {
     <>
       <HideOnScroll {...props}>
         <AppBar>
-          <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Toolbar sx={{ display: "flex", justifyContent: "space-between",flexDirection:{xs:"column-reverse",md:"row"} }}>
             <Box display="flex">
               <Scroller smooth={true} to="Main">
-                <Typography mx={1}>صفحه نخست</Typography>
+                <Typography
+                  sx={{
+                    cursor: "pointer",my:1,
+                    ":hover": { borderBottom: "1px solid white" },
+                  }}
+                  mx={1}
+                >
+                  صفحه نخست
+                </Typography>
               </Scroller>
               <Scroller smooth={true} to="About">
-                <Typography mx={1}>درباره من</Typography>
+                <Typography
+                  sx={{
+                    cursor: "pointer",my:1,
+                    ":hover": { borderBottom: "1px solid white" },
+                  }}
+                  mx={1}
+                >
+                  درباره من
+                </Typography>
               </Scroller>
               <Scroller smooth={true} to="Books">
-                <Typography mx={1}>کتاب های من</Typography>
+                <Typography
+                  sx={{
+                    cursor: "pointer",my:1,
+                    ":hover": { borderBottom: "1px solid white" },
+                  }}
+                  mx={1}
+                >
+                  کتاب های من
+                </Typography>
               </Scroller>
             </Box>
             <Link
-              href="mailto:M.Gh.Koohi@gmail.com"
-              sx={{ color: "white", fontWeight: "bold" }}
+              href="mailto:M.Gh.Sh.Koohi@gmail.com"
+              sx={{ color: "white", fontWeight: "bold",p:2 }}
             >
-              M.Gh.Koohi@gmail.com
+              M.Gh.Sh.Koohi@gmail.com
             </Link>
           </Toolbar>
         </AppBar>
