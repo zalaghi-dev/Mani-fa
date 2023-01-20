@@ -31,8 +31,8 @@ const About = () => {
         <Avatar
           src={MS}
           sx={{
-            width: { md: "100%", xs: 400 },
-            height: { md: "100%", xs: 400 },
+            width: { md: "100%", xs: 250 },
+            height: { md: "100%", xs: 250 },
           }}
           alt="Mani Shirkoohi"
           variant="rounded"

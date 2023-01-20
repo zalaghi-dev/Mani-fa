@@ -43,7 +43,13 @@ const MainBook = () => {
           textAlign: "center",
         }}
       >
-        <Box width={300} component="img" src={Main} alt="cover" />
+        <Box
+          sx={{ width: { xs:250 ,md:300} }}
+
+          component="img"
+          src={Main}
+          alt="cover"
+        />
       </Grid>
     </Grid>
   );

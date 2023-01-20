@@ -14,8 +14,8 @@ const App = () => {
       <Box
         sx={{
           position: "fixed",
-          width: "100vw",
-          height: "100vh",
+          width: "100%",
+          height: "100%",
           zIndex: -1,
           backgroundImage: `url(${bg})`,
           backgroundPosition: "center",
@@ -25,7 +25,7 @@ const App = () => {
       />
       <Header />
       <NameDisplay />
-      <MainBook /> 
+      <MainBook />
       <Element name="About">
         <About />
       </Element>
