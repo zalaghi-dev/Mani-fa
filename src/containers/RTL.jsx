@@ -8,7 +8,7 @@ const RTL = ({ children }) => {
   const theme = createTheme({
     direction: "rtl",
     typography: {
-      fontFamily: "lotus,vazir,roboto",allVariants:{color:"#f5f5f5",}
+      fontFamily: "lotus,roboto",allVariants:{color:"#f5f5f5",}
     },
     palette: {
       mode: "light",

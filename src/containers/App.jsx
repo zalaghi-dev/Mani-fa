@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import { Element } from "react-scroll";
 import Header from "../components/Header";
 import RTL from "./RTL";
@@ -10,6 +10,7 @@ import Books from "../components/Books";
 const App = () => {
   return (
     <RTL>
+      <CssBaseline/>
       <Element name="Main" />
       <Box
         sx={{
